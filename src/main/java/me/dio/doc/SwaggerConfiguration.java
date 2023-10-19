@@ -16,5 +16,6 @@ public class SwaggerConfiguration {
 	    Server server = new Server();
 	    server.setUrl("https://sdw-2023-api-production-sellan.up.railway.app");
 	    return new OpenAPI().servers(List.of(server));
+	    
 	}
 }
